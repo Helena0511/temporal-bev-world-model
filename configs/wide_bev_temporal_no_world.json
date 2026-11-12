@@ -1,0 +1,29 @@
+{
+  "channels": 32,
+  "tokens": 8,
+  "heads": 4,
+  "layers": 1,
+  "bev_height": 76,
+  "bev_width": 61,
+  "x_min": -15,
+  "x_max": 60,
+  "y_min": -30,
+  "y_max": 30,
+  "depth_bins": 32,
+  "depth_min": 1,
+  "depth_max": 70,
+  "future_steps": 6,
+  "residual_source": "visual",
+  "spatial_layers": 1,
+  "spatial_points": 2,
+  "anchor_heights": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "query_chunk_size": 128,
+  "perception": "bev_query",
+  "temporal_fusion": "attention",
+  "use_world_delta": false
+}

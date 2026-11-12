@@ -1,0 +1,41 @@
+{
+  "status": "engineering_candidate_not_a_standard_mandated_bev",
+  "reference": {
+    "standard": "JTG B01-2014",
+    "lane_table": "4.0.2",
+    "stopping_table": "4.0.15-1/-2",
+    "lane_width_m": 3.5,
+    "stopping_sight_distance_m": 75.0,
+    "source": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf"
+  },
+  "assumptions": {
+    "road_type": "highway_reference",
+    "design_speed_kmh": 60,
+    "planning_seconds": 3.0,
+    "total_motor_lanes": 6,
+    "median_width_m": 3.0,
+    "roadside_width_m": 5.0,
+    "include_cross_traffic": true,
+    "cross_speed_kmh": 60.0,
+    "cross_interaction_seconds": 3.0,
+    "rear_closing_speed_mps": 10.0,
+    "lane_change_seconds": 3.0,
+    "front_margin_m": 5.0,
+    "side_margin_m": 5.0,
+    "rear_margin_m": 5.0,
+    "grid_spacing_m": 1.0
+  },
+  "calculations": {
+    "planning_travel_m": 50.0,
+    "road_side_envelope_m": 27.25,
+    "cross_traffic_reach_m": 50.0
+  },
+  "model_grid": {
+    "x_min": -35.0,
+    "x_max": 80.0,
+    "y_min": -55.0,
+    "y_max": 55.0,
+    "bev_height": 116,
+    "bev_width": 111
+  }
+}

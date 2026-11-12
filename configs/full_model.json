@@ -1,0 +1,16 @@
+{
+  "channels": 64,
+  "tokens": 16,
+  "heads": 8,
+  "layers": 3,
+  "bev_height": 100,
+  "bev_width": 100,
+  "x_min": -15.0,
+  "x_max": 15.0,
+  "y_min": -30.0,
+  "y_max": 30.0,
+  "depth_bins": 68,
+  "depth_min": 1.0,
+  "depth_max": 34.5,
+  "future_steps": 6
+}
